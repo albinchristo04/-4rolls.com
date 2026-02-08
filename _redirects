@@ -1,0 +1,12 @@
+# Cloudflare Pages Redirects
+# Clean URL redirects for better user experience
+
+# Redirect www to non-www
+https://www.4rolls.com/* https://4rolls.com/$1 301
+
+# Redirect common misspellings
+/recipes /pages/recipes 301
+/guides /pages/guides 301
+
+# Redirect old recipe paths
+/recipe/* /pages/recipes/$1 301
